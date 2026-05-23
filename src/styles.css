@@ -12,6 +12,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   min-width: 320px;
@@ -23,7 +27,65 @@ a {
   font: inherit;
 }
 
+a {
+  text-decoration: none;
+}
+
 @theme {
   --color-site: #020617;
+}
+
+@utility section-shell {
+  @apply mx-auto max-w-7xl px-6 py-20 sm:py-24;
+}
+
+@utility button-primary {
+  @apply inline-flex min-h-11 items-center justify-center rounded-md bg-cyan-300 px-5 text-sm font-semibold text-slate-950 shadow-[0_0_28px_rgba(34,211,238,0.22)] transition hover:bg-cyan-200 focus:outline-none focus:ring-2 focus:ring-cyan-200 focus:ring-offset-2 focus:ring-offset-site;
+}
+
+@utility button-secondary {
+  @apply inline-flex min-h-11 items-center justify-center rounded-md border border-white/15 px-5 text-sm font-semibold text-slate-100 transition hover:border-white/30 hover:bg-white/5 focus:outline-none focus:ring-2 focus:ring-slate-200 focus:ring-offset-2 focus:ring-offset-site;
+}
+
+@utility tag {
+  @apply rounded border border-cyan-300/20 bg-cyan-300/10 px-2.5 py-1 text-xs font-medium text-cyan-100;
+}
+
+@utility tag-muted {
+  @apply border-slate-400/20 bg-slate-400/10 text-slate-200;
+}
+
+@utility status-pill {
+  @apply shrink-0 rounded border border-emerald-300/25 bg-emerald-300/10 px-2 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-emerald-200;
+}
+
+@utility metric-tile {
+  @apply rounded border border-white/10 bg-white/[0.035] p-3;
+}
+
+.metric-tile span {
+  display: block;
+  color: #94a3b8;
+  font-size: 0.72rem;
+}
+
+.metric-tile strong {
+  display: block;
+  margin-top: 0.25rem;
+  color: #f8fafc;
+  font-size: 0.95rem;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.12) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: linear-gradient(to bottom, black, transparent 82%);
+}
+
+::selection {
+  background: rgba(34, 211, 238, 0.25);
+  color: #f8fafc;
 }
 
