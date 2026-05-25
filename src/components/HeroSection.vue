@@ -1,13 +1,28 @@
 <template>
   <section
     id="top"
-    class="relative overflow-hidden border-b border-white/10 bg-[radial-gradient(circle_at_20%_15%,rgba(34,211,238,0.16),transparent_32%),radial-gradient(circle_at_80%_10%,rgba(244,114,182,0.09),transparent_30%),linear-gradient(180deg,#020617_0%,#08111f_52%,#020617_100%)]"
+    class="relative overflow-hidden border-b border-white/10 bg-[radial-gradient(circle_at_20%_15%,rgba(34,211,238,0.14),transparent_32%),radial-gradient(circle_at_80%_10%,rgba(244,114,182,0.07),transparent_30%),linear-gradient(180deg,#020617_0%,#07111f_52%,#020617_100%)]"
   >
+    <div class="starfield" aria-hidden="true"></div>
+    <div class="north-star" aria-hidden="true"></div>
+    <div class="campfire-scene" aria-hidden="true">
+      <div class="campfire-figure">
+        <span class="campfire-head"></span>
+        <span class="campfire-body"></span>
+      </div>
+      <div class="campfire">
+        <span class="campfire-glow"></span>
+        <span class="flame flame-main"></span>
+        <span class="flame flame-small"></span>
+        <span class="fire-log fire-log-left"></span>
+        <span class="fire-log fire-log-right"></span>
+      </div>
+    </div>
     <div class="absolute inset-0 bg-grid opacity-35" aria-hidden="true"></div>
     <div class="relative mx-auto grid min-h-[calc(100vh-65px)] max-w-7xl items-center gap-12 px-6 py-20 lg:grid-cols-[1.04fr_0.96fr]">
       <div class="max-w-3xl">
         <p class="mb-5 text-sm font-medium uppercase tracking-[0.28em] text-cyan-300">
-          Software Engineer · Product Builder · Technical Explorer
+          Engineer · Designer · Soul Builder
         </p>
         <h1 class="text-4xl font-semibold leading-tight text-white sm:text-6xl">
           Building software systems, interactive experiences, and developer workflows.
@@ -55,4 +70,3 @@
     </div>
   </section>
 </template>
-
