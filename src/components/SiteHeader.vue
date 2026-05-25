@@ -16,10 +16,10 @@
       <div class="hidden items-center gap-6 text-sm text-slate-300 md:flex">
         <a class="transition hover:text-white" href="#projects">Projects</a>
         <a class="transition hover:text-white" href="#notes">Notes</a>
+        <a class="transition hover:text-white" href="#ai-workflow">AI Workflow</a>
         <a class="transition hover:text-white" href="#lab">Lab</a>
         <a class="transition hover:text-white" href="#about">About</a>
       </div>
     </nav>
   </header>
 </template>
-

@@ -14,6 +14,17 @@ export interface NoteTopic {
   summary: string;
 }
 
+export interface AIWorkflowTopic {
+  title: string;
+  focus: string;
+  description: string;
+}
+
+export interface WorldviewPrinciple {
+  title: string;
+  description: string;
+}
+
 export interface Experiment {
   title: string;
   status: 'planned' | 'active' | 'archived';
@@ -26,4 +37,3 @@ export interface SiteLink {
   href: string;
   description: string;
 }
-
