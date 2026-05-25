@@ -5,19 +5,6 @@
   >
     <div class="starfield" aria-hidden="true"></div>
     <div class="north-star" aria-hidden="true"></div>
-    <div class="campfire-scene" aria-hidden="true">
-      <div class="campfire-figure">
-        <span class="campfire-head"></span>
-        <span class="campfire-body"></span>
-      </div>
-      <div class="campfire">
-        <span class="campfire-glow"></span>
-        <span class="flame flame-main"></span>
-        <span class="flame flame-small"></span>
-        <span class="fire-log fire-log-left"></span>
-        <span class="fire-log fire-log-right"></span>
-      </div>
-    </div>
     <div class="absolute inset-0 bg-grid opacity-35" aria-hidden="true"></div>
     <div class="relative mx-auto grid min-h-[calc(100vh-65px)] max-w-7xl items-center gap-12 px-6 py-20 lg:grid-cols-[1.04fr_0.96fr]">
       <div class="max-w-3xl">
