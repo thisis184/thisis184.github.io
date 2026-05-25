@@ -2,6 +2,7 @@
 import AboutDeveloper from './components/AboutDeveloper.vue';
 import AIWorkflow from './components/AIWorkflow.vue';
 import FeaturedProjects from './components/FeaturedProjects.vue';
+import HeroImageBand from './components/HeroImageBand.vue';
 import HeroSection from './components/HeroSection.vue';
 import LabExperiments from './components/LabExperiments.vue';
 import SiteFooter from './components/SiteFooter.vue';
@@ -14,6 +15,7 @@ import TechnicalNotes from './components/TechnicalNotes.vue';
     <SiteHeader />
     <main>
       <HeroSection />
+      <HeroImageBand />
       <FeaturedProjects />
       <TechnicalNotes />
       <AIWorkflow />
