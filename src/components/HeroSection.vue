@@ -25,11 +25,12 @@
           Engineer · Designer · Soul Builder
         </p>
         <h1 class="text-4xl font-semibold leading-tight text-white sm:text-6xl">
-          Building software systems, interactive experiences, and developer workflows.
+          Building software systems, interactive experiences, and intentional AI-assisted workflows.
         </h1>
         <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-          This is Austin Wu's public technical base: a focused archive for engineering projects,
-          architecture notes, game experiments, and intentional AI-assisted development.
+          This is Austin Wu’s public technical base — a living archive of engineering projects,
+          architecture explorations, game systems, creative experiments, and human-centered product
+          development.
         </p>
         <div class="mt-9 flex flex-wrap gap-3">
           <a class="button-primary" href="#projects">View Projects</a>
