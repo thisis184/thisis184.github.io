@@ -1,7 +1,7 @@
 <template>
   <section
     id="top"
-    class="relative overflow-hidden border-b border-white/10 bg-[radial-gradient(circle_at_20%_15%,rgba(34,211,238,0.14),transparent_32%),radial-gradient(circle_at_80%_10%,rgba(244,114,182,0.07),transparent_30%),linear-gradient(180deg,#020617_0%,#07111f_52%,#020617_100%)]"
+    class="relative overflow-hidden bg-[radial-gradient(circle_at_20%_15%,rgba(34,211,238,0.14),transparent_32%),radial-gradient(circle_at_80%_10%,rgba(244,114,182,0.07),transparent_30%),linear-gradient(180deg,#020617_0%,#07111f_52%,#020617_100%)]"
   >
     <div class="starfield" aria-hidden="true"></div>
     <div class="north-star" aria-hidden="true"></div>
